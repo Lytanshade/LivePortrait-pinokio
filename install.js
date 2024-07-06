@@ -44,13 +44,13 @@ module.exports = {
 	 {
 		method: "fs.download",
 		params: {
-		uri: "https://huggingface.co/public-data/insightface/blob/main/models/buffalo_l/det_10g.onnx",
+		uri: "https://huggingface.co/lytanshade/insightface/blob/main/det_10g.onnx",
 		dir: "app\pretrained_weights\insightface\models\buffalo_l"
 		}
 	},{
 		method: "fs.download",
 		params: {
-		uri: "https://huggingface.co/public-data/insightface/blob/main/models/buffalo_l/2d106det.onnx",
+		uri: "https://huggingface.co/lytanshade/insightface/blob/main/2d106det.onnx",
 		dir: "app\pretrained_weights\insightface\models\buffalo_l"
 		}
 	},{
