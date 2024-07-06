@@ -1,8 +1,8 @@
 const path = require('path')
 module.exports = {
   version: "1.5",
-  title: "LivePortrait:  8GB VRAM & ~8GB download ",
-  description: "",
+  title: "LivePortrait",
+  description: "LivePortrait:  8GB VRAM & ~8GB download",
   icon: "icon.png",
   menu: async (kernel) => {
     let installing = await kernel.running(__dirname, "install.js")
