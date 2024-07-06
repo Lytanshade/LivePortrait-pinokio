@@ -63,25 +63,25 @@ module.exports = {
 		method: "fs.download",
 		params: {
 		uri: "https://huggingface.co/lytanshade/liveportrait/resolve/main/liveportrait/base_models/appearance_feature_extractor.pth",
-		dir: "app/LivePortrait/app/pretrained_weights/liveportrait/base_models"
+		dir: "app/pretrained_weights/liveportrait/base_models"
 		}
 	},{
 		method: "fs.download",
 		params: {
 		uri: "https://huggingface.co/lytanshade/liveportrait/resolve/main/liveportrait/base_models/motion_extractor.pth",
-		dir: "app/LivePortrait/app/pretrained_weights/liveportrait/base_models"
+		dir: "app/pretrained_weights/liveportrait/base_models"
 		}
 	},{
 		method: "fs.download",
 		params: {
 		uri: "https://huggingface.co/lytanshade/liveportrait/resolve/main/liveportrait/base_models/spade_generator.pth",
-		dir: "app/LivePortrait/app/pretrained_weights/liveportrait/base_models"
+		dir: "app/pretrained_weights/liveportrait/base_models"
 		}
 	},{
 		method: "fs.download",
 		params: {
 		uri: "https://huggingface.co/lytanshade/liveportrait/resolve/main/liveportrait/base_models/warping_module.pth",
-		dir: "app/LivePortrait/app/pretrained_weights/liveportrait/base_models"
+		dir: "app/pretrained_weights/liveportrait/base_models"
 		}
 	},{
 		method: "fs.download",
