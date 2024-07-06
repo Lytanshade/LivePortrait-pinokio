@@ -44,49 +44,49 @@ module.exports = {
 	 {
 		method: "fs.download",
 		params: {
-		uri: "https://huggingface.co/lytanshade/insightface/blob/main/det_10g.onnx",
+		uri: "https://huggingface.co/lytanshade/insightface/resolve/main/det_10g.onnx",
 		dir: "app\pretrained_weights\insightface\models\buffalo_l"
 		}
 	},{
 		method: "fs.download",
 		params: {
-		uri: "https://huggingface.co/lytanshade/insightface/blob/main/2d106det.onnx",
+		uri: "https://huggingface.co/lytanshade/insightface/resolve/main/2d106det.onnx",
 		dir: "app\pretrained_weights\insightface\models\buffalo_l"
 		}
 	},{
 		method: "fs.download",
 		params: {
-		uri: "https://huggingface.co/lytanshade/liveportrait/blob/main/liveportrait/landmark.onnx",
+		uri: "https://huggingface.co/lytanshade/liveportrait/resolve/main/liveportrait/landmark.onnx",
 		dir: "app\pretrained_weights\liveportrait"
 		}
 	},{
 		method: "fs.download",
 		params: {
-		uri: "https://huggingface.co/lytanshade/liveportrait/blob/main/liveportrait/base_models/appearance_feature_extractor.pth",
+		uri: "https://huggingface.co/lytanshade/liveportrait/resolve/main/liveportrait/base_models/appearance_feature_extractor.pth",
 		dir: "api\LivePortrait\app\pretrained_weights\liveportrait\base_models"
 		}
 	},{
 		method: "fs.download",
 		params: {
-		uri: "https://huggingface.co/lytanshade/liveportrait/blob/main/liveportrait/base_models/motion_extractor.pth",
+		uri: "https://huggingface.co/lytanshade/liveportrait/resolve/main/liveportrait/base_models/motion_extractor.pth",
 		dir: "api\LivePortrait\app\pretrained_weights\liveportrait\base_models"
 		}
 	},{
 		method: "fs.download",
 		params: {
-		uri: "https://huggingface.co/lytanshade/liveportrait/blob/main/liveportrait/base_models/spade_generator.pth",
+		uri: "https://huggingface.co/lytanshade/liveportrait/resolve/main/liveportrait/base_models/spade_generator.pth",
 		dir: "api\LivePortrait\app\pretrained_weights\liveportrait\base_models"
 		}
 	},{
 		method: "fs.download",
 		params: {
-		uri: "https://huggingface.co/lytanshade/liveportrait/blob/main/liveportrait/base_models/warping_module.pth",
+		uri: "https://huggingface.co/lytanshade/liveportrait/resolve/main/liveportrait/base_models/warping_module.pth",
 		dir: "api\LivePortrait\app\pretrained_weights\liveportrait\base_models"
 		}
 	},{
 		method: "fs.download",
 		params: {
-		uri: "https://huggingface.co/lytanshade/liveportrait/blob/main/liveportrait/retargeting_models/stitching_retargeting_module.pth",
+		uri: "https://huggingface.co/lytanshade/liveportrait/resolve/main/liveportrait/retargeting_models/stitching_retargeting_module.pth",
 		dir: "app\pretrained_weights\liveportrait\retargeting_models"
 		}
 	},
