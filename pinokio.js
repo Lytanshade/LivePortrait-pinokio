@@ -1,7 +1,7 @@
 const path = require('path')
 module.exports = {
   version: "1.5",
-  title: "LivePortrait",
+  title: "LivePortrait:  8GB VRAM & ~8GB download ",
   description: "",
   icon: "icon.png",
   menu: async (kernel) => {
