@@ -9,7 +9,7 @@ module.exports = {
     params: {
       path: "app",
       message: "git pull"
-   }
+    }
   }, {
      method: "shell.run",
      params: {
