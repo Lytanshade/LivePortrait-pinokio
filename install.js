@@ -31,7 +31,7 @@ module.exports = {
            "pip install gradio devicetorch",
 	   "pip install -r ../requirements.txt",
            "{{platform === 'darwin' ? 'pip install onnxruntime-silicon==1.16.3'}}",
-	   "pip install	tyro==0.8.5",
+	   "pip install tyro==0.8.5",
            
         ]
       }
