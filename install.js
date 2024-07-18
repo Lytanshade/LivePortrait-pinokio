@@ -29,10 +29,9 @@ module.exports = {
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
            "pip install gradio devicetorch",
-	   "pip install -r requirements.txt",
-           "{{platform === 'darwin' ? 'pip install onnxruntime-silicon==1.16.3'}}",
-	   "pip install tyro==0.8.5",
-           
+	   "{{platform === 'darwin' ? 'pip install onnxruntime-silicon==1.16.3'}}",
+	   "{{gpu === 'nvidia' ? 'pip install onnxruntime-gpu==1.18.0'}}",
+	   "pip install -r requirements.txt"
         ]
       }
     },
