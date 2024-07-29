@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://github.com/Lytanshade/LivePortrait.git app",
+          "git clone --single-branch --branch vid3 https://github.com/Lytanshade/LivePortrait.git app ",
         ]
       }
     },
@@ -28,10 +28,8 @@ module.exports = {
         venv: "env",                // Edit this to customize the venv folder path
         path: "app",                // Edit this to customize the path to start the shell from
         message: [
-           "pip install gradio devicetorch",
-	   "{{platform === 'darwin' ? 'pip install onnxruntime-silicon==1.16.3' : null}}",
-	   "{{gpu === 'nvidia' ? 'pip install onnxruntime-gpu==1.18.0' : null}}",
-	   "pip install -r requirements.txt"
+          "pip install gradio devicetorch",
+          "pip install -r {{platform==='darwin' ? 'requirements_macOS.txt' : 'requirements.txt'}}"
         ]
       }
     },
