@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone --single-branch --branch vid3 https://github.com/Lytanshade/LivePortrait.git app ",
+          "git clone --single-branch --branch animals https://github.com/Lytanshade/LivePortrait.git app ",
         ]
       }
     },
