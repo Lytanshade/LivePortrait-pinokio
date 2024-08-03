@@ -9,7 +9,7 @@ module.exports = {
     let running = {
       install: info.running("install.js"),
       start: info.running("start.js"),
-	  start2: info.running("start_animals.js"),
+      start2: info.running("start_animals.js"),
       update: info.running("update.js"),
       reset: info.running("reset.js")
     }
