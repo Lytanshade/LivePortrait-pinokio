@@ -5,7 +5,7 @@ module.exports = {
   description: "LivePortrait - animals update: 6GB VRAM & ~8GB download",
   icon: "icon.png",
   menu: async (kernel, info) => {
-    let installed = info.exists("env")
+    let installed = info.exists("app/env")
     let running = {
       install: info.running("install.js"),
       start: info.running("start.js"),
@@ -97,8 +97,8 @@ module.exports = {
           href: "install.js",
         }, {
           icon: "fa-regular fa-circle-xmark",
-          text: "Reset",
-          href: "reset.js",
+          text: "Empty cache",
+          href: "clearcache.js",
         }]
       }
     } else {
