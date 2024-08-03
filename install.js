@@ -89,6 +89,42 @@ module.exports = {
 		uri: "https://huggingface.co/lytanshade/liveportrait/resolve/main/liveportrait/retargeting_models/stitching_retargeting_module.pth",
 		dir: "app/pretrained_weights/liveportrait/retargeting_models"
 		}
+	},{
+		method: "fs.download",
+		params: {
+		uri: "https://huggingface.co/lytanshade/liveportrait_animals/resolve/main/base_models/appearance_feature_extractor.pth",
+		dir: "app/pretrained_weights/liveportrait/animals/base_models"
+		}
+	},{
+		method: "fs.download",
+		params: {
+		uri: "https://huggingface.co/lytanshade/liveportrait_animals/resolve/main/base_models/motion_extractor.pth",
+		dir: "app/pretrained_weights/liveportrait/animals/base_models"
+		}
+	},{
+		method: "fs.download",
+		params: {
+		uri: "https://huggingface.co/lytanshade/liveportrait_animals/resolve/main/base_models/spade_generator.pth",
+		dir: "app/pretrained_weights/liveportrait/animals/base_models"
+		}
+	},{
+		method: "fs.download",
+		params: {
+		uri: "https://huggingface.co/lytanshade/liveportrait_animals/resolve/main/base_models/warping_module.pth",
+		dir: "app/pretrained_weights/liveportrait/animals/base_models"
+		}
+	},{
+		method: "fs.download",
+		params: {
+		uri: "https://huggingface.co/lytanshade/liveportrait_animals/resolve/main/retargeting_models/stitching_retargeting_module.pth",
+		dir: "app/pretrained_weights/liveportrait/animals/retargeting_models"
+		}
+	},{
+		method: "fs.download",
+		params: {
+		uri: "https://huggingface.co/lytanshade/liveportrait_animals/resolve/main/xpose.pth",
+		dir: "app/pretrained_weights/liveportrait/animals"
+		}
 	},
   
   
