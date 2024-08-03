@@ -47,10 +47,6 @@ module.exports = {
           icon: "fa-solid fa-plug",
           text: "Install",
           href: "install.js",
-        }, {
-          icon: "fa-regular fa-circle-xmark",
-          text: "Reset",
-          href: "reset.js",
         }]
       }
     } else {
