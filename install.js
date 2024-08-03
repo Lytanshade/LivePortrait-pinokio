@@ -78,21 +78,21 @@ module.exports = {
 		  "https://huggingface.co/lytanshade/liveportrait_animals/resolve/main/base_models/spade_generator.pth",
 		  "https://huggingface.co/lytanshade/liveportrait_animals/resolve/main/base_models/warping_module.pth"
 	    ],
-	    dir: "app/pretrained_weights/liveportrait/animals/base_models"
+	    dir: "app/pretrained_weights/liveportrait_animals/base_models"
 	  }
     },
     {
 	  method: "fs.download",
 	  params: {
 	    uri: "https://huggingface.co/lytanshade/liveportrait_animals/resolve/main/retargeting_models/stitching_retargeting_module.pth",
-	    dir: "app/pretrained_weights/liveportrait/animals/retargeting_models"
+	    dir: "app/pretrained_weights/liveportrait_animals/retargeting_models"
 	  }
     },
      {
 	  method: "fs.download",
 	  params: {
 	    uri: "https://huggingface.co/lytanshade/liveportrait_animals/resolve/main/xpose.pth",
-	    dir: "app/pretrained_weights/liveportrait/animals"
+	    dir: "app/pretrained_weights/liveportrait_animals"
 	  }
     },  
 
